@@ -10,6 +10,22 @@ summary_ru: "Превращает разрозненные AI-agent skills в ч
 summary_en: "Turns scattered AI-agent skills into a clean, compact, readable library and usable skill files."
 promise: "scattered AI-agent skills -> clean-library + usable SKILL.md files"
 usage_model: "Connect the six-skill pack to an agent chat/session, give it an AI-agent skills folder path, and get skill-library-cleaner-output/clean-library with usable SKILL.md files and a final map while the original source folder stays intact."
+compatibility_public_line: "Codex-first. Markdown-portable. Adapter candidates available."
+verified_environment:
+  - "Codex / OpenAI-style local Markdown/file workflow"
+adapter_candidates:
+  - "Claude Code"
+  - "Claude"
+  - "Cursor"
+  - "Gemini"
+  - "Kimi"
+  - "Qwen"
+  - "DeepSeek"
+  - "Generic Markdown-capable agents"
+not_claimed:
+  - "verified support for all models"
+  - "runtime support outside the tested primary workflow"
+  - "automatic install or execution in untested environments"
 workflow:
   - step: 1
     name: Inventory
@@ -68,6 +84,7 @@ artifacts:
     - CHANGELOG.md
     - RELEASE_NOTES.md
     - THIRD_PARTY_NOTICES.md
+    - ADAPTER_LABELS.md
     - pack.yaml
     - release-manifest.json
     - catalog/skills.csv
@@ -79,6 +96,7 @@ artifacts:
     - skills/verify-final-map/SKILL.md
     - docs/safety.md
     - docs/apply-and-rollback.md
+    - docs/compatibility.md
     - site-ready/SITE_BRIEF.md
     - site-ready/SITE_SECTIONS.md
     - site-ready/SITE_DATA.json

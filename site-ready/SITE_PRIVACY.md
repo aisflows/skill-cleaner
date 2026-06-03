@@ -4,6 +4,7 @@
 
 - product name;
 - public promise;
+- compatibility boundary;
 - six workflow stages;
 - safety boundaries;
 - output contract;

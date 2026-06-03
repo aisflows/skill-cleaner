@@ -11,6 +11,7 @@ SUPPORT.md
 CHANGELOG.md
 RELEASE_NOTES.md
 THIRD_PARTY_NOTICES.md
+ADAPTER_LABELS.md
 pack.yaml
 release-manifest.json
 catalog/skills.csv
@@ -24,6 +25,7 @@ docs/safety.md
 docs/apply-and-rollback.md
 docs/output-contract.md
 docs/package-allowlist.md
+docs/compatibility.md
 site-ready/SITE_BRIEF.md
 site-ready/SITE_SECTIONS.md
 site-ready/SITE_DATA.json

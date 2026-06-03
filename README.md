@@ -6,6 +6,8 @@ Turn scattered AI-agent skills into a clean, compact, readable library and usabl
 
 Status: v0.1.0 public preview / end-to-end cleaner / no permanent delete.
 
+Compatibility: Codex-first. Markdown-portable. Claude Code, Cursor, Gemini, Kimi, Qwen, DeepSeek, and generic Markdown-capable agents are adapter candidates, not verified runtime support claims.
+
 ## 30-Second Brief
 
 Skill Cleaner is for people collecting AI-agent skills faster than they can keep them organized.
@@ -103,6 +105,18 @@ Inventory -> Risk Block -> Dedupe & Cluster -> Normalize & Canonicalize -> Apply
 - Duplicate/noisy/old files are routed to `archive/` in the clean output when exact-duplicate confidence and approval are sufficient.
 - Risky files are routed to `blocked/` in the clean output or left blocked in the plan.
 - Apply requires dry-run, exact operation list, backup/rollback, and explicit approval.
+
+## Compatibility
+
+Release 001 is verified for a Codex / OpenAI-style local agent workflow with Markdown instructions and file access.
+
+The package is Markdown-first, so it is intended to be adaptable to Claude Code, Cursor, Gemini, Kimi, Qwen, DeepSeek, and generic Markdown-capable agents. These are adapter candidates until separate tests prove the exact release package in those environments.
+
+Do not read this preview as "works everywhere." The honest public claim is:
+
+```text
+Codex-first. Markdown-portable. Adapter candidates available.
+```
 
 ## What Counts As Done
 

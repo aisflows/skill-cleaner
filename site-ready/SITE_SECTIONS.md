@@ -20,6 +20,12 @@ Primary proof:
 6 skills. One agent chat. No permanent delete.
 ```
 
+Compatibility badge:
+
+```text
+Codex-first · Markdown-portable · Adapter candidates
+```
+
 ## 2. Problem
 
 ```text
@@ -54,3 +60,12 @@ Original source folder stays intact.
 ## 6. Download
 
 Point to the GitHub repository and release ZIP.
+
+## 7. Compatibility
+
+```text
+Verified: Codex / OpenAI-style local Markdown/file workflow.
+Adapter candidates: Claude Code, Cursor, Gemini, Kimi, Qwen, DeepSeek, generic Markdown agents.
+```
+
+Do not claim broad support before direct adapter tests.

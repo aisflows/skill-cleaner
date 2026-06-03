@@ -7,6 +7,27 @@
   "created_at": "2026-06-02",
   "open_source": false,
   "promise": "scattered AI-agent skills -> clean-library + usable SKILL.md files",
+  "compatibility": {
+    "public_line": "Codex-first. Markdown-portable. Adapter candidates available.",
+    "verified": [
+      "Codex / OpenAI-style local Markdown/file workflow"
+    ],
+    "adapter_candidates": [
+      "Claude Code",
+      "Claude",
+      "Cursor",
+      "Gemini",
+      "Kimi",
+      "Qwen",
+      "DeepSeek",
+      "Generic Markdown-capable agents"
+    ],
+    "not_claimed": [
+      "verified support for all models",
+      "runtime support outside the tested primary workflow",
+      "automatic install or execution in untested environments"
+    ]
+  },
   "workflow": [
     "Inventory",
     "Risk Block",
