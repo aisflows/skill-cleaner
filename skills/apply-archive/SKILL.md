@@ -75,7 +75,7 @@ If any check fails, stop and report `REWORK` or `FAIL`.
 - write approved normalized `SKILL.md`;
 - create final reports.
 
-Permanent delete is not allowed in Release 001.
+Permanent delete is not allowed in Skill Cleaner v0.1.0.
 
 Prefer copy over move. Moving source items is only allowed on a copied sandbox or with explicit `approved-specific-operations` approval.
 

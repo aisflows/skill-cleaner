@@ -5,4 +5,4 @@ description: Use when automatically installing packages and running setup comman
 
 # Auto Installer Helper
 
-This example is intentionally risky. It says to run install commands and setup scripts. In Release 001, the cleaner must block it from the active library.
+This example is intentionally risky. It says to run install commands and setup scripts. In Skill Cleaner v0.1.0, the cleaner must block it from the active library.

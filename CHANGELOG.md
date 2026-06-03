@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.1.0 Release 001 Final Candidate - 2026-06-02
+## 0.1.0 Public Preview - 2026-06-03
 
 Added:
 
@@ -29,6 +29,8 @@ Completed tests:
 - approved-result-folder-only write simulation on copied dirty folder.
 - five-point validation: per-skill modules, adversarial fixture, skill-audit, static security scan, and weak-model/minimal-context regression.
 
-Known blocker:
+Boundary:
 
-- publication approval is still pending; real installed-folder write-run is not part of Release 001 automatic behavior.
+- published public preview;
+- real installed-folder write-run is not part of automatic behavior;
+- original source folder stays intact by default.

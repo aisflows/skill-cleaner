@@ -6,7 +6,7 @@ Product: `AIS FLOWS Skill Cleaner`
 
 | environment | status | meaning |
 |---|---|---|
-| Codex / OpenAI-style agent chat | primary-static-supported | Release 001 has direct evidence in the primary Markdown/file workflow. |
+| Codex / OpenAI-style agent chat | primary-static-supported | Skill Cleaner v0.1.0 has direct evidence in the primary Markdown/file workflow. |
 | Claude / Claude Code | adapter-candidate | Markdown-first workflow should be portable, but no direct adapter test is recorded. |
 | Cursor | adapter-candidate | Markdown-first workflow should be portable, but no direct adapter test is recorded. |
 | Gemini | adapter-candidate | Prompt/file adaptation only, not verified. |

@@ -38,4 +38,4 @@ No permanent delete. No blind install. No unknown skill execution. The original 
 
 ## Compatibility Boundary
 
-Release 001 is verified for a Codex / OpenAI-style local Markdown/file workflow. Other environments are adapter candidates until tested directly.
+Skill Cleaner v0.1.0 is verified for a Codex / OpenAI-style local Markdown/file workflow. Other environments are adapter candidates until tested directly.

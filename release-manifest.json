@@ -23,7 +23,7 @@
       "Generic Markdown-capable agents"
     ],
     "not_claimed": [
-      "verified support for all models",
+      "verified adapter support without direct tests",
       "runtime support outside the tested primary workflow",
       "automatic install or execution in untested environments"
     ]

@@ -108,11 +108,11 @@ Inventory -> Risk Block -> Dedupe & Cluster -> Normalize & Canonicalize -> Apply
 
 ## Compatibility
 
-Release 001 is verified for a Codex / OpenAI-style local agent workflow with Markdown instructions and file access.
+Skill Cleaner v0.1.0 is verified for a Codex / OpenAI-style local agent workflow with Markdown instructions and file access.
 
 The package is Markdown-first, so it is intended to be adaptable to Claude Code, Cursor, Gemini, Kimi, Qwen, DeepSeek, and generic Markdown-capable agents. These are adapter candidates until separate tests prove the exact release package in those environments.
 
-Do not read this preview as "works everywhere." The honest public claim is:
+Do not read this preview as a universal runtime-support claim. The honest public claim is:
 
 ```text
 Codex-first. Markdown-portable. Adapter candidates available.

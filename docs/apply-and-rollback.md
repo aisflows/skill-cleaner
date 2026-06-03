@@ -69,7 +69,7 @@ Store enough original content or path mapping to reverse copy/archive/write oper
 
 Allowed writes are limited to the approved output root and backup/archive folders.
 
-Permanent deletion is not allowed in Release 001.
+Permanent deletion is not allowed in Skill Cleaner v0.1.0.
 
 ## Rollback
 

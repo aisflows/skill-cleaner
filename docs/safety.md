@@ -1,6 +1,6 @@
 # Safety
 
-Release 001 is a safe cleaner, not an executor for unknown code.
+Skill Cleaner v0.1.0 is a safe cleaner, not an executor for unknown code.
 
 Forbidden:
 
