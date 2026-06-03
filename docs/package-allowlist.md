@@ -1,6 +1,6 @@
 # Package Allowlist
 
-Only these files are intended for Release 001 final candidate.
+Only these files are intended for the v0.1.0 public preview package.
 
 ```text
 README.md
@@ -24,6 +24,11 @@ docs/safety.md
 docs/apply-and-rollback.md
 docs/output-contract.md
 docs/package-allowlist.md
+site-ready/SITE_BRIEF.md
+site-ready/SITE_SECTIONS.md
+site-ready/SITE_DATA.json
+site-ready/SITE_PRIVACY.md
+site-ready/SITE_UPDATE_LOG.md
 templates/INVENTORY_TEMPLATE.md
 templates/RISK_BLOCKLIST_TEMPLATE.md
 templates/DEDUP_GROUPS_TEMPLATE.md

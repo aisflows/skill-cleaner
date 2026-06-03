@@ -1,0 +1,37 @@
+{
+  "product": "Skill Cleaner",
+  "brand": "AIS FLOWS",
+  "package_id": "ais-flows-skill-library-cleaner",
+  "version": "0.1.0",
+  "status": "public-preview",
+  "repo": "https://github.com/aisflows/skill-cleaner",
+  "promise": "scattered AI-agent skills -> clean-library + usable SKILL.md files",
+  "short_description": "Turn scattered AI-agent skills into a clean library and usable skill files.",
+  "workflow": [
+    "Inventory",
+    "Risk Block",
+    "Dedupe & Cluster",
+    "Normalize & Canonicalize",
+    "Apply & Archive",
+    "Verify & Final Map"
+  ],
+  "outputs": [
+    "skill-library-cleaner-output/clean-library",
+    "usable canonical SKILL.md files",
+    "FINAL_LIBRARY_MAP.md"
+  ],
+  "safety": {
+    "no_permanent_delete": true,
+    "no_blind_install": true,
+    "no_unknown_skill_execution": true,
+    "source_folder_stays_intact_by_default": true
+  },
+  "tests": [
+    "fixture full-path test",
+    "model 5.4 mini fixture retest",
+    "real dirty-folder dry-run",
+    "copied dirty-folder write simulation",
+    "5-point validation"
+  ],
+  "primary_visual": "assets/skill-cleaner-github-preview.jpg"
+}

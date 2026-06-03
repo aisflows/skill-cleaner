@@ -2,8 +2,8 @@
   "schema_version": "0.1",
   "product": "AIS FLOWS Skill Library Cleaner",
   "package_id": "ais-flows-skill-library-cleaner",
-  "version": "0.1.0-release-001-final-candidate",
-  "status": "release-001-final-candidate",
+  "version": "0.1.0",
+  "status": "public-preview",
   "created_at": "2026-06-02",
   "open_source": false,
   "promise": "scattered AI-agent skills -> clean-library + usable SKILL.md files",
@@ -21,6 +21,16 @@
     "reports": "reports",
     "machine": "machine",
     "final_map": "FINAL_LIBRARY_MAP.md"
+  },
+  "site_ready": {
+    "folder": "site-ready",
+    "files": [
+      "site-ready/SITE_BRIEF.md",
+      "site-ready/SITE_SECTIONS.md",
+      "site-ready/SITE_DATA.json",
+      "site-ready/SITE_PRIVACY.md",
+      "site-ready/SITE_UPDATE_LOG.md"
+    ]
   },
   "safety": {
     "no_permanent_delete": true,
@@ -41,7 +51,7 @@
     "5-point full validation: per-skill, adversarial, skill-audit, static security, weak-model regression"
   ],
   "release_blockers": [
-    "no publication approval yet; real installed-folder write-run remains outside automatic Release 001 behavior"
+    "real installed-folder write-run remains outside automatic v0.1.0 behavior"
   ],
   "included_files_reference": "docs/package-allowlist.md"
 }

@@ -6,6 +6,22 @@ Turn scattered AI-agent skills into a clean, compact, readable library and usabl
 
 Status: v0.1.0 public preview / end-to-end cleaner / no permanent delete.
 
+## 30-Second Brief
+
+Skill Cleaner is for people collecting AI-agent skills faster than they can keep them organized.
+
+Give one agent chat a folder of scattered skills. The connected six-skill pack inventories, blocks risky items, finds duplicates, normalizes useful material, writes a clean output library, and verifies the final map.
+
+You get:
+
+```text
+skill-library-cleaner-output/clean-library
+usable canonical SKILL.md files
+FINAL_LIBRARY_MAP.md
+```
+
+It does not permanently delete source files, install unknown packages, or execute unknown skills.
+
 ## Promise
 
 ```text
@@ -14,7 +30,7 @@ scattered AI-agent skills -> clean-library/ + usable SKILL.md files
 
 The pack does not stop at a report. It creates a clean-library output with canonical skills, references, backlog, blocked items, archive, and final map.
 
-It can also create approved normalized `SKILL.md` outputs inside the clean library. That means it can turn scattered skill material into usable canonical skill files. It does not promise arbitrary new skill generation from scratch in This preview.
+It can also create approved normalized `SKILL.md` outputs inside the clean library. That means it can turn scattered skill material into usable canonical skill files. It does not promise arbitrary new skill generation from scratch in this public preview.
 
 ## How It Works
 
@@ -83,7 +99,7 @@ Inventory -> Risk Block -> Dedupe & Cluster -> Normalize & Canonicalize -> Apply
 
 - No third-party install.
 - No `npx`, `npm install`, package scripts, setup scripts, unknown binaries, provider/API calls, cookies, browser profiles, tokens, or `.env` access.
-- No permanent deletion in This preview.
+- No permanent deletion in this public preview.
 - Duplicate/noisy/old files are routed to `archive/` in the clean output when exact-duplicate confidence and approval are sufficient.
 - Risky files are routed to `blocked/` in the clean output or left blocked in the plan.
 - Apply requires dry-run, exact operation list, backup/rollback, and explicit approval.
@@ -106,7 +122,12 @@ This public preview is ready when:
 - Full security guarantee.
 - Legal/license approval.
 - Marketplace publication.
-- Creating unrelated original new user-owned skills from scratch as a required This preview step.
+- Creating unrelated original new user-owned skills from scratch as a required public-preview step.
 
 Original skill creation can be a future extension after the library is clean; This pack already normalizes scattered skill material into usable canonical skill files.
+
+## Site-Ready Packaging
+
+The `site-ready/` folder contains a compact presentation layer for GitHub Pages, landing pages, README generators, publisher agents, and future AIS FLOWS product hubs.
+
 

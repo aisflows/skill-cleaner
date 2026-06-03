@@ -1,9 +1,9 @@
 id: ais-flows-skill-library-cleaner
 public_name: AIS FLOWS Skill Library Cleaner
 brand: AIS FLOWS
-version: 0.1.0-release-001-final-candidate
-status: release-001-final-candidate
-publication_action_executed: false
+version: 0.1.0
+status: public-preview
+publication_action_executed: true
 open_source: false
 author: Andrei Spirydovich
 summary_ru: "Превращает разрозненные AI-agent skills в чистую, компактную, читаемую библиотеку и рабочие skill-файлы."
@@ -49,9 +49,9 @@ safety:
   apply_requires_approval: true
   apply_requires_machine_approval_state: true
 release_decision:
-  state: final-candidate
-  blocker: "No publication approval yet; real installed-folder write-run remains outside automatic Release 001 behavior."
-  next_review: "Optional external SkillTest review of final candidate package."
+  state: public-preview
+  blocker: "Real installed-folder write-run remains outside automatic v0.1.0 behavior."
+  next_review: "Optional external SkillTest review of public preview package."
   completed_tests:
     - "fixture full path: messy-small/raw -> clean-library"
     - "model 5.4 mini fixture retest"
@@ -79,6 +79,11 @@ artifacts:
     - skills/verify-final-map/SKILL.md
     - docs/safety.md
     - docs/apply-and-rollback.md
+    - site-ready/SITE_BRIEF.md
+    - site-ready/SITE_SECTIONS.md
+    - site-ready/SITE_DATA.json
+    - site-ready/SITE_PRIVACY.md
+    - site-ready/SITE_UPDATE_LOG.md
     - docs/output-contract.md
     - docs/package-allowlist.md
     - templates/INVENTORY_TEMPLATE.md
