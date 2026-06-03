@@ -1,8 +1,8 @@
 # Release Notes
 
-## AIS FLOWS Skill Library Cleaner 0.1.0 Release 001 Final Candidate
+## AIS FLOWS Skill Cleaner v0.1.0
 
-This final candidate is one end-to-end cleaner pack.
+This public preview is one end-to-end cleaner pack.
 
 Target outcome:
 
@@ -20,3 +20,4 @@ Current tested state:
 - approved-result-folder-only write simulation passed on a copied dirty folder;
 - five-point validation passed: per-skill modules, adversarial fixture, skill-audit, static security scan, and weak-model/minimal-context regression;
 - write behavior remains approval-gated and should be tested only on a copied dirty folder unless the user explicitly approves a real write-run.
+

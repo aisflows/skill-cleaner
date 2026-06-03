@@ -1,6 +1,6 @@
 # Terms
 
-AIS FLOWS Skill Library Cleaner is provided as a Release 001 final candidate.
+AIS FLOWS Skill Library Cleaner is provided as a v0.1.0 public preview.
 
 It is not open source unless a separate license says otherwise.
 
@@ -18,3 +18,4 @@ Not allowed without separate permission:
 - claiming ownership of AIS FLOWS materials.
 
 No warranty is provided.
+

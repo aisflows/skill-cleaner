@@ -1,6 +1,6 @@
 # Support
 
-Status: Release 001 final candidate.
+Status: v0.1.0 public preview.
 
 Support mode: preview/internal testing.
 
@@ -13,3 +13,4 @@ When reporting an issue, include:
 - whether apply was dry-run or approved.
 
 Do not include secrets, tokens, cookies, browser profile data, payment data, or private customer data.
+

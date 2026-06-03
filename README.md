@@ -4,7 +4,7 @@
 
 Turn scattered AI-agent skills into a clean, compact, readable library and usable skill files.
 
-Status: Release 001 final candidate / end-to-end cleaner / no permanent delete.
+Status: v0.1.0 public preview / end-to-end cleaner / no permanent delete.
 
 ## Promise
 
@@ -14,7 +14,7 @@ scattered AI-agent skills -> clean-library/ + usable SKILL.md files
 
 The pack does not stop at a report. It creates a clean-library output with canonical skills, references, backlog, blocked items, archive, and final map.
 
-It can also create approved normalized `SKILL.md` outputs inside the clean library. That means it can turn scattered skill material into usable canonical skill files. It does not promise arbitrary new skill generation from scratch in Release 001.
+It can also create approved normalized `SKILL.md` outputs inside the clean library. That means it can turn scattered skill material into usable canonical skill files. It does not promise arbitrary new skill generation from scratch in This preview.
 
 ## How It Works
 
@@ -31,7 +31,7 @@ skill-library-cleaner-output/clean-library
 The result is a clean working library with usable SKILL.md files and a final map.
 ```
 
-Release 001 gives the user a finished output library while keeping the original source folder intact. It does not silently rewrite the real installed skills folder and avoids permanent deletion.
+The public preview gives the user a finished output library while keeping the original source folder intact. It does not silently rewrite the real installed skills folder and avoids permanent deletion.
 
 ## What It Produces
 
@@ -83,14 +83,14 @@ Inventory -> Risk Block -> Dedupe & Cluster -> Normalize & Canonicalize -> Apply
 
 - No third-party install.
 - No `npx`, `npm install`, package scripts, setup scripts, unknown binaries, provider/API calls, cookies, browser profiles, tokens, or `.env` access.
-- No permanent deletion in Release 001.
+- No permanent deletion in This preview.
 - Duplicate/noisy/old files are routed to `archive/` in the clean output when exact-duplicate confidence and approval are sufficient.
 - Risky files are routed to `blocked/` in the clean output or left blocked in the plan.
 - Apply requires dry-run, exact operation list, backup/rollback, and explicit approval.
 
 ## What Counts As Done
 
-Release 001 final candidate is reached when:
+This public preview is ready when:
 
 - fixture full-path test produces a clean-library output;
 - model 5.4 mini retest validates the small fixture path;
@@ -106,6 +106,7 @@ Release 001 final candidate is reached when:
 - Full security guarantee.
 - Legal/license approval.
 - Marketplace publication.
-- Creating unrelated original new user-owned skills from scratch as a required Release 001 step.
+- Creating unrelated original new user-owned skills from scratch as a required This preview step.
 
-Original skill creation can be a future extension after the library is clean; Release 001 already normalizes scattered skill material into usable canonical skill files.
+Original skill creation can be a future extension after the library is clean; This pack already normalizes scattered skill material into usable canonical skill files.
+
