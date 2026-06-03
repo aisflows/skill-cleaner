@@ -1,0 +1,47 @@
+{
+  "schema_version": "0.1",
+  "product": "AIS FLOWS Skill Library Cleaner",
+  "package_id": "ais-flows-skill-library-cleaner",
+  "version": "0.1.0-release-001-final-candidate",
+  "status": "release-001-final-candidate",
+  "created_at": "2026-06-02",
+  "open_source": false,
+  "promise": "scattered AI-agent skills -> clean-library + usable SKILL.md files",
+  "workflow": [
+    "Inventory",
+    "Risk Block",
+    "Dedupe & Cluster",
+    "Normalize & Canonicalize",
+    "Apply & Archive",
+    "Verify & Final Map"
+  ],
+  "output_contract": {
+    "root": "skill-library-cleaner-output",
+    "clean_library": "clean-library",
+    "reports": "reports",
+    "machine": "machine",
+    "final_map": "FINAL_LIBRARY_MAP.md"
+  },
+  "safety": {
+    "no_permanent_delete": true,
+    "no_install": true,
+    "no_package_scripts": true,
+    "no_provider_api_calls": true,
+    "no_secret_access": true,
+    "apply_requires_dry_run": true,
+    "apply_requires_explicit_approval": true,
+    "apply_requires_machine_approval_state": true
+  },
+  "completed_tests": [
+    "dummy fixture apply test",
+    "model 5.4 mini fixture retest",
+    "real dirty-folder dry-run",
+    "neighboring SkillTest full-path result",
+    "approved-result-folder-only write simulation on copied dirty folder",
+    "5-point full validation: per-skill, adversarial, skill-audit, static security, weak-model regression"
+  ],
+  "release_blockers": [
+    "no publication approval yet; real installed-folder write-run remains outside automatic Release 001 behavior"
+  ],
+  "included_files_reference": "docs/package-allowlist.md"
+}

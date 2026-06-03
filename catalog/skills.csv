@@ -1,0 +1,7 @@
+step,public_name,skill_name,maturity,source_path,role
+1,Inventory,skill-library-cleaner-inventory,final-candidate,skills/inventory/SKILL.md,No-run folder inventory source snapshot and evidence manifest
+2,Risk Block,skill-library-cleaner-risk-block,final-candidate,skills/risk-block/SKILL.md,Separate install runtime API credential browser and package-script risk surfaces
+3,Dedupe & Cluster,skill-library-cleaner-dedupe-cluster,final-candidate,skills/dedupe-cluster/SKILL.md,Separate exact duplicates from overlap groups with confidence and routes
+4,Normalize & Canonicalize,skill-library-cleaner-normalize-canonicalize,final-candidate,skills/normalize-canonicalize/SKILL.md,Choose canonical names shelf routes rewrite risk and target structure
+5,Apply & Archive,skill-library-cleaner-apply-archive,final-candidate,skills/apply-archive/SKILL.md,Create clean-library output with approval state backup archive and source-mutation gates
+6,Verify & Final Map,skill-library-cleaner-verify-final-map,final-candidate,skills/verify-final-map/SKILL.md,Verify applied output or dry-run proposal and produce final library map
