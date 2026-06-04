@@ -45,12 +45,16 @@ templates/DEDUP_GROUPS_TEMPLATE.md
 templates/CANONICAL_LIBRARY_PLAN_TEMPLATE.md
 templates/APPLY_PLAN_TEMPLATE.md
 templates/FINAL_LIBRARY_MAP_TEMPLATE.md
-examples/messy-small/raw/duplicate-a/SKILL.md
-examples/messy-small/raw/duplicate-b/SKILL.md
-examples/messy-small/raw/keep-good/SKILL.md
-examples/messy-small/raw/risky-cli/SKILL.md
+examples/messy-small/README.md
+examples/messy-small/raw/duplicate-a/EXAMPLE_SKILL.md.txt
+examples/messy-small/raw/duplicate-b/EXAMPLE_SKILL.md.txt
+examples/messy-small/raw/keep-good/EXAMPLE_SKILL.md.txt
+examples/messy-small/raw/risky-cli/EXAMPLE_SKILL.md.txt
 examples/expected-clean-library/EXPECTED_RESULT.md
 ```
+
+Example fixture files are intentionally not named `SKILL.md`.
+They are cleaner input examples, not active published marketplace skills.
 
 Do not include:
 

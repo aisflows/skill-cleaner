@@ -79,6 +79,30 @@
     "docs/safety.md",
     "docs/feedback.md"
   ],
+  "scanner_hygiene": {
+    "package_type": "multi-skill-pack",
+    "expected_skill_md_count": 6,
+    "skill_files": [
+      "skills/inventory/SKILL.md",
+      "skills/risk-block/SKILL.md",
+      "skills/dedupe-cluster/SKILL.md",
+      "skills/normalize-canonicalize/SKILL.md",
+      "skills/apply-archive/SKILL.md",
+      "skills/verify-final-map/SKILL.md"
+    ],
+    "example_fixture_files_are_not_named_skill_md": true,
+    "example_fixture_pattern": "examples/messy-small/raw/*/EXAMPLE_SKILL.md.txt",
+    "forbidden_public_package_patterns": [
+      "examples/**/SKILL.md",
+      "node_modules/**",
+      ".env*",
+      "**/*token*",
+      "**/*cookie*",
+      "**/*secret*",
+      "**/*.log",
+      "tmp/**"
+    ]
+  },
   "safety": {
     "no_permanent_delete": true,
     "no_install": true,

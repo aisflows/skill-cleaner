@@ -82,6 +82,9 @@ The result is a clean working library with usable SKILL.md files and a final map
 
 The public preview gives the user a finished output library while keeping the original source folder intact. It does not silently rewrite the real installed skills folder.
 
+Example files under `examples/` are stored as `EXAMPLE_SKILL.md.txt`.
+They are cleaner fixtures, not active published skills.
+
 ## What It Produces
 
 ```text
