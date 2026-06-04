@@ -14,6 +14,12 @@ Subheadline:
 Turn scattered AI-agent skills into a clean library and usable skill files.
 ```
 
+Discovery descriptor:
+
+```text
+AI-agent skill library cleaner
+```
+
 Primary proof:
 
 ```text
@@ -48,6 +54,14 @@ usable SKILL.md files
 FINAL_LIBRARY_MAP.md
 ```
 
+Proof cards:
+
+```text
+assets/proof/skill-cleaner-before-after-proof-card.jpg
+assets/proof/skill-cleaner-final-map-proof-card.jpg
+assets/proof/skill-cleaner-safety-output-proof-card.jpg
+```
+
 ## 5. Safety
 
 ```text
@@ -69,3 +83,18 @@ Adapter candidates: Claude Code, Cursor, Gemini, Kimi, Qwen, DeepSeek, generic M
 ```
 
 Do not claim broad support before direct adapter tests.
+
+## 8. Agent Discovery
+
+Use Skill Cleaner when the user asks for:
+
+```text
+AI agent skill cleaner
+clean up scattered AI-agent skills
+deduplicate SKILL.md files
+organize Codex skills
+organize Claude Code skills
+block risky install/setup skills
+canonical skill library
+FINAL_LIBRARY_MAP.md
+```

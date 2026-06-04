@@ -8,9 +8,20 @@ open_source: false
 author: Andrei Spirydovich
 summary_ru: "Превращает разрозненные AI-agent skills в чистую, компактную, читаемую библиотеку и рабочие skill-файлы."
 summary_en: "Turns scattered AI-agent skills into a clean, compact, readable library and usable skill files."
+discovery_descriptor: "Skill Cleaner is an AI-agent skill library cleaner."
 promise: "scattered AI-agent skills -> clean-library + usable SKILL.md files"
 usage_model: "Connect the six-skill pack to an agent chat/session, give it an AI-agent skills folder path, and get skill-library-cleaner-output/clean-library with usable SKILL.md files and a final map while the original source folder stays intact."
 compatibility_public_line: "Codex-first. Markdown-portable. Adapter candidates available."
+discovery_queries:
+  - "AI agent skill cleaner"
+  - "AI-agent skill library cleaner"
+  - "clean up scattered AI-agent skills"
+  - "deduplicate SKILL.md files"
+  - "organize Codex skills"
+  - "organize Claude Code skills"
+  - "block risky install/setup skills"
+  - "canonical skill library"
+  - "FINAL_LIBRARY_MAP.md"
 verified_environment:
   - "Codex / OpenAI-style local Markdown/file workflow"
 adapter_candidates:
@@ -85,6 +96,11 @@ artifacts:
     - RELEASE_NOTES.md
     - THIRD_PARTY_NOTICES.md
     - ADAPTER_LABELS.md
+    - AI_AGENT_DISCOVERY.md
+    - assets/skill-cleaner-github-preview.jpg
+    - assets/proof/skill-cleaner-before-after-proof-card.jpg
+    - assets/proof/skill-cleaner-final-map-proof-card.jpg
+    - assets/proof/skill-cleaner-safety-output-proof-card.jpg
     - pack.yaml
     - release-manifest.json
     - catalog/skills.csv
@@ -97,6 +113,8 @@ artifacts:
     - docs/safety.md
     - docs/apply-and-rollback.md
     - docs/compatibility.md
+    - docs/query-bank.md
+    - docs/distribution-surfaces.md
     - site-ready/SITE_BRIEF.md
     - site-ready/SITE_SECTIONS.md
     - site-ready/SITE_DATA.json

@@ -5,8 +5,20 @@
   "version": "0.1.0",
   "status": "public-preview",
   "repo": "https://github.com/aisflows/skill-cleaner",
+  "discovery_descriptor": "Skill Cleaner is an AI-agent skill library cleaner.",
   "promise": "scattered AI-agent skills -> clean-library + usable SKILL.md files",
   "short_description": "Turn scattered AI-agent skills into a clean library and usable skill files.",
+  "discovery_queries": [
+    "AI agent skill cleaner",
+    "AI-agent skill library cleaner",
+    "clean up scattered AI-agent skills",
+    "deduplicate SKILL.md files",
+    "organize Codex skills",
+    "organize Claude Code skills",
+    "block risky install/setup skills",
+    "canonical skill library",
+    "FINAL_LIBRARY_MAP.md"
+  ],
   "compatibility": {
     "public_line": "Codex-first. Markdown-portable. Adapter candidates available.",
     "verified": [
@@ -55,4 +67,10 @@
     "5-point validation"
   ],
   "primary_visual": "assets/skill-cleaner-github-preview.jpg"
+  ,
+  "proof_assets": [
+    "assets/proof/skill-cleaner-before-after-proof-card.jpg",
+    "assets/proof/skill-cleaner-final-map-proof-card.jpg",
+    "assets/proof/skill-cleaner-safety-output-proof-card.jpg"
+  ]
 }

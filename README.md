@@ -8,6 +8,8 @@ Status: v0.1.0 public preview / end-to-end cleaner / no permanent delete.
 
 Compatibility: Codex-first. Markdown-portable. Claude Code, Cursor, Gemini, Kimi, Qwen, DeepSeek, and generic Markdown-capable agents are adapter candidates, not verified runtime support claims.
 
+Discovery descriptor: `Skill Cleaner is an AI-agent skill library cleaner.`
+
 ## 30-Second Brief
 
 Skill Cleaner is for people collecting AI-agent skills faster than they can keep them organized.
@@ -23,6 +25,45 @@ FINAL_LIBRARY_MAP.md
 ```
 
 It does not permanently delete source files, install unknown packages, or execute unknown skills.
+
+## Find It By Task
+
+Use Skill Cleaner when the task is:
+
+```text
+clean up scattered AI-agent skills
+deduplicate SKILL.md files
+organize Codex skills
+organize Claude Code skills
+prepare a canonical skill library
+block risky install/setup skills before use
+convert a noisy skills folder into clean-library/
+produce FINAL_LIBRARY_MAP.md for a skill library
+```
+
+Ask an agent:
+
+```text
+Find a safe way to clean up a messy folder of AI-agent skills,
+deduplicate SKILL.md files, block risky install/setup helpers,
+and output a canonical clean-library with FINAL_LIBRARY_MAP.md.
+```
+
+More machine-readable discovery notes: [`AI_AGENT_DISCOVERY.md`](AI_AGENT_DISCOVERY.md), [`docs/query-bank.md`](docs/query-bank.md), and [`docs/distribution-surfaces.md`](docs/distribution-surfaces.md).
+
+## Proof Cards
+
+Before / after:
+
+![Before / After Proof](assets/proof/skill-cleaner-before-after-proof-card.jpg)
+
+Final map:
+
+![FINAL_LIBRARY_MAP proof](assets/proof/skill-cleaner-final-map-proof-card.jpg)
+
+Safety and output contract:
+
+![Safety / Output Contract proof](assets/proof/skill-cleaner-safety-output-proof-card.jpg)
 
 ## Promise
 

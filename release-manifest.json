@@ -6,7 +6,19 @@
   "status": "public-preview",
   "created_at": "2026-06-02",
   "open_source": false,
+  "discovery_descriptor": "Skill Cleaner is an AI-agent skill library cleaner.",
   "promise": "scattered AI-agent skills -> clean-library + usable SKILL.md files",
+  "discovery_queries": [
+    "AI agent skill cleaner",
+    "AI-agent skill library cleaner",
+    "clean up scattered AI-agent skills",
+    "deduplicate SKILL.md files",
+    "organize Codex skills",
+    "organize Claude Code skills",
+    "block risky install/setup skills",
+    "canonical skill library",
+    "FINAL_LIBRARY_MAP.md"
+  ],
   "compatibility": {
     "public_line": "Codex-first. Markdown-portable. Adapter candidates available.",
     "verified": [
@@ -53,6 +65,17 @@
       "site-ready/SITE_UPDATE_LOG.md"
     ]
   },
+  "discovery_files": [
+    "AI_AGENT_DISCOVERY.md",
+    "docs/query-bank.md",
+    "docs/distribution-surfaces.md",
+    "ADAPTER_LABELS.md"
+  ],
+  "proof_assets": [
+    "assets/proof/skill-cleaner-before-after-proof-card.jpg",
+    "assets/proof/skill-cleaner-final-map-proof-card.jpg",
+    "assets/proof/skill-cleaner-safety-output-proof-card.jpg"
+  ],
   "safety": {
     "no_permanent_delete": true,
     "no_install": true,
