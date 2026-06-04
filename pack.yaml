@@ -98,9 +98,6 @@ artifacts:
     - ADAPTER_LABELS.md
     - AI_AGENT_DISCOVERY.md
     - assets/skill-cleaner-github-preview.jpg
-    - assets/proof/skill-cleaner-before-after-proof-card.jpg
-    - assets/proof/skill-cleaner-final-map-proof-card.jpg
-    - assets/proof/skill-cleaner-safety-output-proof-card.jpg
     - pack.yaml
     - release-manifest.json
     - catalog/skills.csv
@@ -122,6 +119,8 @@ artifacts:
     - site-ready/SITE_UPDATE_LOG.md
     - docs/output-contract.md
     - docs/package-allowlist.md
+    - docs/feedback.md
+    - docs/discovery-marketplace-backlog.md
     - templates/INVENTORY_TEMPLATE.md
     - templates/RISK_BLOCKLIST_TEMPLATE.md
     - templates/DEDUP_GROUPS_TEMPLATE.md
@@ -133,3 +132,5 @@ artifacts:
     - examples/messy-small/raw/keep-good/SKILL.md
     - examples/messy-small/raw/risky-cli/SKILL.md
     - examples/expected-clean-library/EXPECTED_RESULT.md
+    - .github/ISSUE_TEMPLATE/config.yml
+    - .github/ISSUE_TEMPLATE/skill-cleaner-feedback.yml

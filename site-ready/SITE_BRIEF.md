@@ -38,4 +38,12 @@ No permanent delete. No blind install. No unknown skill execution. The original 
 
 ## Compatibility Boundary
 
-Skill Cleaner v0.1.0 is verified for a Codex / OpenAI-style local Markdown/file workflow. Other environments are adapter candidates until tested directly.
+Skill Cleaner v0.1.0 is verified for a Codex / OpenAI-style local Markdown/file workflow.
+
+Adapter targets:
+
+```text
+Claude Code, Cursor, Gemini, Kimi, Qwen, DeepSeek, generic Markdown agents
+```
+
+Full adapter claims are promoted after direct adapter tests.

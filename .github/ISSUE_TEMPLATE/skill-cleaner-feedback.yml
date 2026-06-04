@@ -1,0 +1,60 @@
+name: Skill Cleaner feedback
+description: Share a real-folder result, issue, or improvement request.
+title: "[Feedback] "
+labels:
+  - feedback
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Share only safe details. Do not include secrets, cookies, browser profiles, `.env` files, private customer data, or paid/private skill content.
+  - type: input
+    id: input_shape
+    attributes:
+      label: Input shape
+      description: What kind of skill folder did you run Skill Cleaner on?
+      placeholder: "Example: 40 mixed Codex/Claude Markdown skills, duplicates, old forks, setup helpers"
+    validations:
+      required: true
+  - type: dropdown
+    id: run_type
+    attributes:
+      label: Run type
+      options:
+        - dry-run
+        - approved write-run on copied folder
+        - approved write-run on real source folder
+        - reading docs only
+    validations:
+      required: true
+  - type: dropdown
+    id: output_created
+    attributes:
+      label: Did it create clean-library output?
+      options:
+        - "yes"
+        - "no"
+        - not sure
+    validations:
+      required: true
+  - type: textarea
+    id: final_map
+    attributes:
+      label: FINAL_LIBRARY_MAP.md result
+      description: Did the final map explain keep/archive/block/reference/backlog decisions clearly?
+      placeholder: "Useful / missing / confusing decisions..."
+  - type: textarea
+    id: worked
+    attributes:
+      label: What worked
+      placeholder: "One concrete thing Skill Cleaner handled well."
+  - type: textarea
+    id: failed
+    attributes:
+      label: What failed or felt unclear
+      placeholder: "One concrete thing that blocked or confused you."
+  - type: textarea
+    id: next
+    attributes:
+      label: What would make the next run better?
+      placeholder: "Adapter support, clearer install route, better examples, more safety checks..."

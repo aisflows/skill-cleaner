@@ -54,12 +54,13 @@ usable SKILL.md files
 FINAL_LIBRARY_MAP.md
 ```
 
-Proof cards:
+Proof route:
 
 ```text
-assets/proof/skill-cleaner-before-after-proof-card.jpg
-assets/proof/skill-cleaner-final-map-proof-card.jpg
-assets/proof/skill-cleaner-safety-output-proof-card.jpg
+example output
+FINAL_LIBRARY_MAP.md
+output contract
+safety boundary
 ```
 
 ## 5. Safety

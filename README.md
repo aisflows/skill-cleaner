@@ -1,30 +1,34 @@
-# AIS FLOWS Skill Library Cleaner
+# Skill Cleaner
 
 ![Skill Cleaner preview](assets/skill-cleaner-github-preview.jpg)
 
-Turn scattered AI-agent skills into a clean, compact, readable library and usable skill files.
+Turn scattered AI-agent skills into `clean-library/` and usable `SKILL.md` files.
 
-Status: v0.1.0 public preview / end-to-end cleaner / no permanent delete.
+Built for people collecting AI-agent skills faster than they can keep them organized.
 
-Compatibility: Codex-first. Markdown-portable. Claude Code, Cursor, Gemini, Kimi, Qwen, DeepSeek, and generic Markdown-capable agents are adapter candidates, not verified runtime support claims.
+```text
+scattered AI-agent skills -> clean-library/ + usable SKILL.md files + FINAL_LIBRARY_MAP.md
+```
+
+v0.1.0 public preview. Codex-first. Markdown-portable. No permanent delete. No blind install.
+
+Download: [`v0.1.0-release-001`](https://github.com/aisflows/skill-cleaner/releases/tag/v0.1.0-release-001)
 
 Discovery descriptor: `Skill Cleaner is an AI-agent skill library cleaner.`
 
 ## 30-Second Brief
 
-Skill Cleaner is for people collecting AI-agent skills faster than they can keep them organized.
-
-Give one agent chat a folder of scattered skills. The connected six-skill pack inventories, blocks risky items, finds duplicates, normalizes useful material, writes a clean output library, and verifies the final map.
+Give one agent chat a folder of scattered skills. Skill Cleaner inventories the folder, blocks risky items, finds duplicates, normalizes useful material, writes a clean output library, and verifies the final map.
 
 You get:
 
 ```text
-skill-library-cleaner-output/clean-library
+skill-library-cleaner-output/clean-library/
 usable canonical SKILL.md files
 FINAL_LIBRARY_MAP.md
 ```
 
-It does not permanently delete source files, install unknown packages, or execute unknown skills.
+The source folder stays intact by default. Skill Cleaner does not install unknown packages, execute unknown skills, or rewrite the active skills folder blindly.
 
 ## Find It By Task
 
@@ -49,21 +53,7 @@ deduplicate SKILL.md files, block risky install/setup helpers,
 and output a canonical clean-library with FINAL_LIBRARY_MAP.md.
 ```
 
-More machine-readable discovery notes: [`AI_AGENT_DISCOVERY.md`](AI_AGENT_DISCOVERY.md), [`docs/query-bank.md`](docs/query-bank.md), and [`docs/distribution-surfaces.md`](docs/distribution-surfaces.md).
-
-## Proof Cards
-
-Before / after:
-
-![Before / After Proof](assets/proof/skill-cleaner-before-after-proof-card.jpg)
-
-Final map:
-
-![FINAL_LIBRARY_MAP proof](assets/proof/skill-cleaner-final-map-proof-card.jpg)
-
-Safety and output contract:
-
-![Safety / Output Contract proof](assets/proof/skill-cleaner-safety-output-proof-card.jpg)
+More machine-readable discovery notes: [`AI_AGENT_DISCOVERY.md`](AI_AGENT_DISCOVERY.md), [`docs/query-bank.md`](docs/query-bank.md), [`docs/distribution-surfaces.md`](docs/distribution-surfaces.md), and [`docs/discovery-marketplace-backlog.md`](docs/discovery-marketplace-backlog.md).
 
 ## Promise
 
@@ -71,9 +61,9 @@ Safety and output contract:
 scattered AI-agent skills -> clean-library/ + usable SKILL.md files
 ```
 
-The pack does not stop at a report. It creates a clean-library output with canonical skills, references, backlog, blocked items, archive, and final map.
+The pack does not stop at a report. It creates a clean output library with canonical skills, references, backlog, blocked items, archive, and final map.
 
-It can also create approved normalized `SKILL.md` outputs inside the clean library. That means it can turn scattered skill material into usable canonical skill files. It does not promise arbitrary new skill generation from scratch in this public preview.
+It turns existing scattered skill material into usable canonical skill files. New original skill creation is a separate job, not the v0.1.0 promise.
 
 ## How It Works
 
@@ -90,7 +80,7 @@ skill-library-cleaner-output/clean-library
 The result is a clean working library with usable SKILL.md files and a final map.
 ```
 
-The public preview gives the user a finished output library while keeping the original source folder intact. It does not silently rewrite the real installed skills folder and avoids permanent deletion.
+The public preview gives the user a finished output library while keeping the original source folder intact. It does not silently rewrite the real installed skills folder.
 
 ## What It Produces
 
@@ -142,7 +132,7 @@ Inventory -> Risk Block -> Dedupe & Cluster -> Normalize & Canonicalize -> Apply
 
 - No third-party install.
 - No `npx`, `npm install`, package scripts, setup scripts, unknown binaries, provider/API calls, cookies, browser profiles, tokens, or `.env` access.
-- No permanent deletion in this public preview.
+- No permanent deletion.
 - Duplicate/noisy/old files are routed to `archive/` in the clean output when exact-duplicate confidence and approval are sufficient.
 - Risky files are routed to `blocked/` in the clean output or left blocked in the plan.
 - Apply requires dry-run, exact operation list, backup/rollback, and explicit approval.
@@ -151,24 +141,30 @@ Inventory -> Risk Block -> Dedupe & Cluster -> Normalize & Canonicalize -> Apply
 
 Skill Cleaner v0.1.0 is verified for a Codex / OpenAI-style local agent workflow with Markdown instructions and file access.
 
-The package is Markdown-first, so it is intended to be adaptable to Claude Code, Cursor, Gemini, Kimi, Qwen, DeepSeek, and generic Markdown-capable agents. These are adapter candidates until separate tests prove the exact release package in those environments.
-
-Do not read this preview as a universal runtime-support claim. The honest public claim is:
+The package is Markdown-first. Adapter targets include Claude Code, Cursor, Gemini, Kimi, Qwen, DeepSeek, and generic Markdown-capable agents.
 
 ```text
-Codex-first. Markdown-portable. Adapter candidates available.
+Codex-first. Markdown-portable.
 ```
 
-## What Counts As Done
+Compatibility claims are promoted only after direct tests for the exact release package. See [`docs/compatibility.md`](docs/compatibility.md).
 
-This public preview is ready when:
+## Validation Status
 
-- fixture full-path test produces a clean-library output;
-- model 5.4 mini retest validates the small fixture path;
-- real dirty-folder dry-run produces a useful plan without mutating the source;
-- copied dirty-folder write simulation creates clean-library inside the result folder only;
-- the final map explains keep/archive/block/reference/backlog decisions;
-- ZIP/checksum/manifest are rebuilt after the final package state.
+v0.1.0 was validated through:
+
+- fixture full-path test that produced `clean-library/`;
+- model 5.4 mini fixture retest;
+- real dirty-folder dry-run with no source mutation;
+- copied dirty-folder write simulation that created output only inside the result folder;
+- final map review for keep/archive/block/reference/backlog decisions;
+- rebuilt ZIP, checksum, manifest, and release body after final package state.
+
+## Feedback
+
+Used Skill Cleaner on a real folder? Open a feedback issue and include the input shape, output shape, and `FINAL_LIBRARY_MAP.md` result.
+
+Feedback route: [`docs/feedback.md`](docs/feedback.md)
 
 ## Not Included
 
@@ -177,9 +173,7 @@ This public preview is ready when:
 - Full security guarantee.
 - Legal/license approval.
 - Marketplace publication.
-- Creating unrelated original new user-owned skills from scratch as a required public-preview step.
-
-Original skill creation can be a future extension after the library is clean; This pack already normalizes scattered skill material into usable canonical skill files.
+- Creating unrelated original new skills from scratch.
 
 ## Site-Ready Packaging
 

@@ -14,9 +14,6 @@ THIRD_PARTY_NOTICES.md
 ADAPTER_LABELS.md
 AI_AGENT_DISCOVERY.md
 assets/skill-cleaner-github-preview.jpg
-assets/proof/skill-cleaner-before-after-proof-card.jpg
-assets/proof/skill-cleaner-final-map-proof-card.jpg
-assets/proof/skill-cleaner-safety-output-proof-card.jpg
 pack.yaml
 release-manifest.json
 catalog/skills.csv
@@ -31,8 +28,12 @@ docs/apply-and-rollback.md
 docs/output-contract.md
 docs/package-allowlist.md
 docs/compatibility.md
+docs/feedback.md
 docs/query-bank.md
 docs/distribution-surfaces.md
+docs/discovery-marketplace-backlog.md
+.github/ISSUE_TEMPLATE/config.yml
+.github/ISSUE_TEMPLATE/skill-cleaner-feedback.yml
 site-ready/SITE_BRIEF.md
 site-ready/SITE_SECTIONS.md
 site-ready/SITE_DATA.json

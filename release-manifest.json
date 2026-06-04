@@ -69,12 +69,15 @@
     "AI_AGENT_DISCOVERY.md",
     "docs/query-bank.md",
     "docs/distribution-surfaces.md",
-    "ADAPTER_LABELS.md"
+    "ADAPTER_LABELS.md",
+    "docs/feedback.md",
+    "docs/discovery-marketplace-backlog.md"
   ],
-  "proof_assets": [
-    "assets/proof/skill-cleaner-before-after-proof-card.jpg",
-    "assets/proof/skill-cleaner-final-map-proof-card.jpg",
-    "assets/proof/skill-cleaner-safety-output-proof-card.jpg"
+  "proof_routes": [
+    "examples/expected-clean-library/EXPECTED_RESULT.md",
+    "docs/output-contract.md",
+    "docs/safety.md",
+    "docs/feedback.md"
   ],
   "safety": {
     "no_permanent_delete": true,

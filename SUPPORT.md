@@ -2,9 +2,11 @@
 
 Status: v0.1.0 public preview.
 
-Support mode: preview/internal testing.
+Support mode: GitHub issues and structured feedback.
 
-When reporting an issue, include:
+Fast feedback route: [`docs/feedback.md`](docs/feedback.md)
+
+When reporting an issue or real-folder result, include:
 
 - input shape, without secrets;
 - expected clean output;

@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Feedback guide
+    url: https://github.com/aisflows/skill-cleaner/blob/main/docs/feedback.md
+    about: What to include when reporting a real Skill Cleaner run.

@@ -66,11 +66,11 @@
     "copied dirty-folder write simulation",
     "5-point validation"
   ],
-  "primary_visual": "assets/skill-cleaner-github-preview.jpg"
-  ,
-  "proof_assets": [
-    "assets/proof/skill-cleaner-before-after-proof-card.jpg",
-    "assets/proof/skill-cleaner-final-map-proof-card.jpg",
-    "assets/proof/skill-cleaner-safety-output-proof-card.jpg"
+  "primary_visual": "assets/skill-cleaner-github-preview.jpg",
+  "proof_routes": [
+    "examples/expected-clean-library/EXPECTED_RESULT.md",
+    "docs/output-contract.md",
+    "docs/safety.md",
+    "docs/feedback.md"
   ]
 }

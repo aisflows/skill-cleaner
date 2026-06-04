@@ -22,11 +22,13 @@ These can be prepared locally before any public update:
 - `AI_AGENT_DISCOVERY.md`
 - `docs/query-bank.md`
 - `docs/distribution-surfaces.md`
+- `docs/discovery-marketplace-backlog.md`
 - adapter matrix
-- before/after proof card
-- FINAL_LIBRARY_MAP screenshot/card
-- output contract screenshot/card
-- safety proof card
+- `docs/feedback.md`
+- GitHub issue template for real-folder feedback
+- example output path and `FINAL_LIBRARY_MAP.md` proof
+- output contract
+- safety boundary
 - `/llms.txt` and `/llms-full.txt` candidates for a future owned site
 
 ## Candidate External Distribution
@@ -35,6 +37,15 @@ Requires separate owner approval before posting, submitting, messaging, or editi
 
 - GitHub topics and release text update
 - GitHub Discussions or issue template for feedback
+- Skiln
+- SkillDrop
+- Skills Playground
+- findskills.co
+- Skillery
+- AI Agents Directory skills marketplace
+- AISkillsMarket
+- aiskills.cc
+- Ari Skills
 - Product Hunt
 - Dev Hunt
 - Hacker News `Show HN`
@@ -54,7 +65,7 @@ For each surface, prepare:
 
 - native title;
 - one-sentence descriptor;
-- proof asset;
+- proof route;
 - link route;
 - compatibility wording;
 - safety boundary;
@@ -63,8 +74,7 @@ For each surface, prepare:
 ## Priority
 
 1. strengthen GitHub/release package wording;
-2. create proof cards/screenshots;
-3. prepare platform-specific follow-up copy;
-4. ask owner before public edits/posts;
-5. run targeted feedback sprint before broad marketplace-style promotion.
-
+2. open a lightweight feedback route;
+3. prepare marketplace/directory listings;
+4. ask owner before public edits/posts/submissions;
+5. run targeted feedback sprint before broad paid promotion.
