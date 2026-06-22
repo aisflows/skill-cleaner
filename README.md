@@ -1,7 +1,5 @@
 # Skill Cleaner
 
-![Skill Cleaner preview](assets/skill-cleaner-github-preview.jpg)
-
 Turn scattered AI-agent skills into `clean-library/` and usable `SKILL.md` files.
 
 Built for people collecting AI-agent skills faster than they can keep them organized.
@@ -12,9 +10,21 @@ scattered AI-agent skills -> clean-library/ + usable SKILL.md files + FINAL_LIBR
 
 v0.1.0 public preview. Codex-first. Markdown-portable. No permanent delete. No blind install.
 
-Download: [`v0.1.0-release-001`](https://github.com/aisflows/skill-cleaner/releases/tag/v0.1.0-release-001)
+## Download
+
+- [Download ZIP](https://github.com/aisflows/skill-cleaner/releases/download/v0.1.0-release-001/ais-flows-skill-library-cleaner-0.1.0-release-001-final-candidate.zip)
+- [Release page](https://github.com/aisflows/skill-cleaner/releases/tag/v0.1.0-release-001)
+- [AIS FLOWS Home](https://aisflows.github.io/home/)
+
+Artifact: `ais-flows-skill-library-cleaner-0.1.0-release-001-final-candidate.zip`
+
+![Skill Cleaner preview](assets/skill-cleaner-github-preview.jpg)
+
+## Agent Discovery
 
 Discovery descriptor: `Skill Cleaner is an AI-agent skill library cleaner.`
+
+Use it when an agent needs to clean up scattered AI-agent skills, deduplicate `SKILL.md` files, block risky setup helpers, and output a safe canonical skill library.
 
 ## 30-Second Brief
 
